@@ -19,7 +19,7 @@
 ```
   cp config-example.yaml config.yaml
   docker build -t flask-web-app .
-  docker run -d -v `pwd`:/app/config.yaml -p 5000:5000 flask-web-app 
+  docker run -d -v `pwd`/config.yaml:/app/config.yaml -p 5000:5000 flask-web-app 
   curl http://localhost:5000
 
 ```
