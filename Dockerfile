@@ -6,6 +6,8 @@ WORKDIR /app
 
 # 复制当前目录中的所有文件到工作目录中
 COPY app.py .
+COPY config.yaml .
+COPY requirements.txt .
 
 # 安装依赖项
 RUN pip install -r requirements.txt

@@ -23,3 +23,12 @@
   curl http://localhost:5000
 
 ```
+## GCP terraform
+
+```
+  Look at the comments in the terraform and fill in the corresponding information（terraform/web.tf)
+  cd terraform
+  terraform init //Initialize the Terraform workspace 
+  terraform plan //Execute the Terraform plan
+  terraform apply //Apply the Terraform configuration
+```
